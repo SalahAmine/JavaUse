@@ -31,9 +31,7 @@ public class Quadratic {
            throw new RuntimeException(" pas de solutions entière pour cette équation");
        
        return set ;
-//        System.out.println(Math.sqrt(Math.pow(b, 2)- 4*a*c));
-//        System.out.println(disc);
-//        throw new RuntimeException("not implemented yet;"); // TODO: delete this line when you implement it
+
     }
 
     
