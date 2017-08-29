@@ -3,6 +3,8 @@ package warmup;
 import java.util.HashSet;
 import java.util.Set;
 
+import org.junit.Assert;
+
 public class Quadratic {
 
     /**
@@ -14,29 +16,36 @@ public class Quadratic {
      */
     public static Set<Integer> roots(int a, int b, int c) {
         
+        assert (a !=0 || b!=0 || c!=0 );
+        
         // calculate discriminant 
         // calculate sol 1 and 2 
         Set<Integer>  set =  new HashSet<Integer>() ;
         double disc= computeDiscriminant(a,b,c);
+//        assert disc == 1.0 ;
         
-        double res1= (-1*b + disc)/(2.0*a) ;
-        double res2= (-1*b - disc)/(2.0*a) ;
-        
-         if ( isInteger(res1) ) 
+        if ( Double.isNaN(disc)) 
+            return set ;
+        else if (! isInteger(disc) ) 
+            return set ;
+        else {       
+            double res1= (-1*b + disc)/(2.0*a) ;
+            double res2= (-1*b - disc)/(2.0*a) ;
+            if (isInteger(res1))
                 set.add((int) res1);
-         if ( isInteger(res2) ) 
-             set.add((int) res2);
-    
-         if ( set.isEmpty() )
-           throw new RuntimeException(" pas de solutions entière pour cette équation");
-       
-       return set ;
+            if (isInteger(res2))
+                set.add((int) res2);
+            
+            return set ;
+
+        }   
+            
 
     }
 
     
     private static boolean isInteger(double d) {
-        return (int) d == d ;
+        return ((int) d - d ) ==0 ;
         
     }
     private static double computeDiscriminant(int a, int b, int c){
@@ -52,9 +61,10 @@ public class Quadratic {
      */
     public static void main(String[] args) {
         System.out.println("For the equation x^2 - 4x + 3 = 0, the possible solutions are:");
-        Set<Integer> result = Quadratic.roots(1, -4, 3);
+        Set<Integer> result = Quadratic.roots(1, -6, 9);
         System.out.println(result);
         
+
         
     }
 
