@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="041-PC" id="0" name="QuadraticTest" package="warmup" skipped="0" tests="8" time="0.098" timestamp="2017-08-29T15:45:59">
+  <testsuite errors="0" failures="0" hostname="ssa-net" id="0" name="QuadraticTest" package="warmup" skipped="0" tests="8" time="0.181" timestamp="2017-08-29T20:29:42">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -10,9 +10,9 @@
 
           <property name="build.sysclasspath" value="ignore" />
 
-          <property name="os.name" value="Windows 10" />
+          <property name="os.name" value="Windows 7" />
 
-          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes" />
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_60\lib\resources.jar;C:\Program Files\Java\jre1.8.0_60\lib\rt.jar;C:\Program Files\Java\jre1.8.0_60\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_60\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_60\lib\jce.jar;C:\Program Files\Java\jre1.8.0_60\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_60\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_60\classes" />
 
           <property name="sun.desktop" value="windows" />
 
@@ -20,29 +20,29 @@
 
           <property name="java.vm.specification.vendor" value="Oracle Corporation" />
 
-          <property name="ant.home" value="C:\Users\ASL\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327" />
+          <property name="ant.home" value="C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327" />
 
-          <property name="java.runtime.version" value="1.8.0_111-b14" />
+          <property name="java.runtime.version" value="1.8.0_60-b27" />
 
-          <property name="user.name" value="ASL" />
+          <property name="user.name" value="amine" />
 
           <property name="ant.build.javac.target" value="1.8" />
 
           <property name="user.language" value="fr" />
 
-          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin" />
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_60\bin" />
 
           <property name="grader.report.file" value="my-grader-report.xml" />
 
           <property name="ant.project.default-target" value="all" />
 
-          <property name="java.version" value="1.8.0_111" />
+          <property name="java.version" value="1.8.0_60" />
 
           <property name="user.timezone" value="" />
 
           <property name="sun.arch.data.model" value="64" />
 
-          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed" />
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_60\lib\endorsed" />
 
           <property name="sun.cpu.isalist" value="amd64" />
 
@@ -58,23 +58,23 @@
 
           <property name="user.country" value="FR" />
 
-          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_111\jre" />
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_60" />
 
           <property name="java.vm.info" value="mixed mode" />
 
-          <property name="ant.file" value="C:\Users\ASL\workspace\ps1-warmup\grader.xml" />
+          <property name="ant.file" value="C:\Users\amine\workspace\JavaUse\grader.xml" />
 
-          <property name="os.version" value="10.0" />
+          <property name="os.version" value="6.1" />
 
           <property name="final.grader.jar" value="ps1-final-grader.jar" />
 
           <property name="path.separator" value=";" />
 
-          <property name="java.vm.version" value="25.111-b14" />
+          <property name="java.vm.version" value="25.60-b23" />
 
           <property name="user.variant" value="" />
 
-          <property name="ant.library.dir" value="C:\Users\ASL\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+          <property name="ant.library.dir" value="C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
 
           <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
 
@@ -84,13 +84,13 @@
 
           <property name="user.script" value="" />
 
-          <property name="user.home" value="C:\Users\ASL" />
+          <property name="user.home" value="C:\Users\amine" />
 
           <property name="java.specification.vendor" value="Oracle Corporation" />
 
           <property name="which.tests.ran" value="BETA + FINAL" />
 
-          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Google\Google Apps Sync\;C:\Program Files (x86)\Google\Google Apps Migration\;C:\Program Files (x86)\Apache Software Foundation\apache-maven-3.3.3\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\scala\bin;C:\Program Files (x86)\sbt\bin;C:\spark-2.0.2-bin-hadoop2.7\bin;C:\HashiCorp\Vagrant\bin;C:\Users\ASL\AppData\Local\Microsoft\WindowsApps;;." />
+          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_60/bin/server;C:/Program Files/Java/jre1.8.0_60/bin;C:/Program Files/Java/jre1.8.0_60/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files\apache-maven-3.3.9\bin;C:\Program Files (x86)\Skype\Phone\;C:\Users\amine\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\amine\AppData\Local\Programs\Python\Python36\;C:\Program Files\eclipse;;." />
 
           <property name="java.vendor.url" value="http://java.oracle.com/" />
 
@@ -100,9 +100,9 @@
 
           <property name="beta.grader.jar" value="ps1-beta-grader.jar" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner warmup.QuadraticTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\ASL\workspace\ps1-warmup\.grader\TEST-warmup.QuadraticTest.xml crashfile=C:\Users\ASL\workspace\ps1-warmup\.grader\junitvmwatcher1139521271901296437.properties propsfile=C:\Users\ASL\workspace\ps1-warmup\.grader\junit6512251844428382464.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner warmup.QuadraticTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\amine\workspace\JavaUse\.grader\TEST-warmup.QuadraticTest.xml crashfile=C:\Users\amine\workspace\JavaUse\.grader\junitvmwatcher2607783245988907474.properties propsfile=C:\Users\amine\workspace\JavaUse\.grader\junit754785797850799121.properties" />
 
-          <property name="java.class.path" value="C:\Users\ASL\workspace\ps1-warmup\lib\junit-4.12.jar;C:\Users\ASL\workspace\ps1-warmup\lib\hamcrest-core-1.3.jar;C:\Users\ASL\workspace\ps1-warmup\.grader\bin-student;C:\Users\ASL\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\ASL\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\ASL\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\ASL\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+          <property name="java.class.path" value="C:\Users\amine\workspace\JavaUse\lib\junit-4.12.jar;C:\Users\amine\workspace\JavaUse\lib\hamcrest-core-1.3.jar;C:\Users\amine\workspace\JavaUse\.grader\bin-student;C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
 
@@ -116,9 +116,9 @@
 
           <property name="didit.desc" value="Running the tests we gave you with the problem set on your implementation." />
 
-          <property name="sun.os.patch.level" value="" />
+          <property name="sun.os.patch.level" value="Service Pack 1" />
 
-          <property name="java.io.tmpdir" value="C:\Users\ASL\AppData\Local\Temp\" />
+          <property name="java.io.tmpdir" value="C:\Users\amine\AppData\Local\Temp\" />
 
           <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
 
@@ -126,9 +126,9 @@
 
           <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
 
-          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_60\lib\ext;C:\Windows\Sun\Java\lib\ext" />
 
-          <property name="user.dir" value="C:\Users\ASL\workspace\ps1-warmup" />
+          <property name="user.dir" value="C:\Users\amine\workspace\JavaUse" />
 
           <property name="line.separator" value="&#xd;&#xa;" />
 
@@ -138,11 +138,11 @@
 
           <property name="problem.set" value="ps1" />
 
-          <property name="basedir" value="C:\Users\ASL\workspace\ps1-warmup" />
+          <property name="basedir" value="C:\Users\amine\workspace\JavaUse" />
 
           <property name="ant.java.version" value="1.8" />
 
-          <property name="ant.core.lib" value="C:\Users\ASL\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+          <property name="ant.core.lib" value="C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
 
           <property name="file.encoding" value="Cp1252" />
 
@@ -154,7 +154,7 @@
 
       </properties>
 
-      <testcase classname="warmup.QuadraticTest" name="testOneRoot" time="0.003" />
+      <testcase classname="warmup.QuadraticTest" name="testOneRoot" time="0.082" />
 
       <testcase classname="warmup.QuadraticTest" name="testAssertionsEnabled" time="0.0" />
 
@@ -175,7 +175,7 @@
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="1" hostname="041-PC" id="1" name="QuadraticTest" package="warmup.staff" skipped="0" tests="3" time="0.087" timestamp="2017-08-29T15:46:00">
+  <testsuite errors="0" failures="0" hostname="ssa-net" id="1" name="QuadraticTest" package="warmup.staff" skipped="0" tests="3" time="0.156" timestamp="2017-08-29T20:29:42">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -185,9 +185,9 @@
 
           <property name="build.sysclasspath" value="ignore" />
 
-          <property name="os.name" value="Windows 10" />
+          <property name="os.name" value="Windows 7" />
 
-          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes" />
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_60\lib\resources.jar;C:\Program Files\Java\jre1.8.0_60\lib\rt.jar;C:\Program Files\Java\jre1.8.0_60\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_60\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_60\lib\jce.jar;C:\Program Files\Java\jre1.8.0_60\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_60\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_60\classes" />
 
           <property name="sun.desktop" value="windows" />
 
@@ -195,29 +195,29 @@
 
           <property name="java.vm.specification.vendor" value="Oracle Corporation" />
 
-          <property name="ant.home" value="C:\Users\ASL\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327" />
+          <property name="ant.home" value="C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327" />
 
-          <property name="java.runtime.version" value="1.8.0_111-b14" />
+          <property name="java.runtime.version" value="1.8.0_60-b27" />
 
-          <property name="user.name" value="ASL" />
+          <property name="user.name" value="amine" />
 
           <property name="ant.build.javac.target" value="1.8" />
 
           <property name="user.language" value="fr" />
 
-          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin" />
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_60\bin" />
 
           <property name="grader.report.file" value="my-grader-report.xml" />
 
           <property name="ant.project.default-target" value="all" />
 
-          <property name="java.version" value="1.8.0_111" />
+          <property name="java.version" value="1.8.0_60" />
 
           <property name="user.timezone" value="" />
 
           <property name="sun.arch.data.model" value="64" />
 
-          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed" />
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_60\lib\endorsed" />
 
           <property name="sun.cpu.isalist" value="amd64" />
 
@@ -233,23 +233,23 @@
 
           <property name="user.country" value="FR" />
 
-          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_111\jre" />
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_60" />
 
           <property name="java.vm.info" value="mixed mode" />
 
-          <property name="ant.file" value="C:\Users\ASL\workspace\ps1-warmup\grader.xml" />
+          <property name="ant.file" value="C:\Users\amine\workspace\JavaUse\grader.xml" />
 
-          <property name="os.version" value="10.0" />
+          <property name="os.version" value="6.1" />
 
           <property name="final.grader.jar" value="ps1-final-grader.jar" />
 
           <property name="path.separator" value=";" />
 
-          <property name="java.vm.version" value="25.111-b14" />
+          <property name="java.vm.version" value="25.60-b23" />
 
           <property name="user.variant" value="" />
 
-          <property name="ant.library.dir" value="C:\Users\ASL\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+          <property name="ant.library.dir" value="C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
 
           <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
 
@@ -259,13 +259,13 @@
 
           <property name="user.script" value="" />
 
-          <property name="user.home" value="C:\Users\ASL" />
+          <property name="user.home" value="C:\Users\amine" />
 
           <property name="java.specification.vendor" value="Oracle Corporation" />
 
           <property name="which.tests.ran" value="BETA + FINAL" />
 
-          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Google\Google Apps Sync\;C:\Program Files (x86)\Google\Google Apps Migration\;C:\Program Files (x86)\Apache Software Foundation\apache-maven-3.3.3\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\scala\bin;C:\Program Files (x86)\sbt\bin;C:\spark-2.0.2-bin-hadoop2.7\bin;C:\HashiCorp\Vagrant\bin;C:\Users\ASL\AppData\Local\Microsoft\WindowsApps;;." />
+          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_60/bin/server;C:/Program Files/Java/jre1.8.0_60/bin;C:/Program Files/Java/jre1.8.0_60/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files\apache-maven-3.3.9\bin;C:\Program Files (x86)\Skype\Phone\;C:\Users\amine\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\amine\AppData\Local\Programs\Python\Python36\;C:\Program Files\eclipse;;." />
 
           <property name="java.vendor.url" value="http://java.oracle.com/" />
 
@@ -275,9 +275,9 @@
 
           <property name="beta.grader.jar" value="ps1-beta-grader.jar" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner warmup.staff.QuadraticTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\ASL\workspace\ps1-warmup\.grader\TEST-warmup.staff.QuadraticTest.xml crashfile=C:\Users\ASL\workspace\ps1-warmup\.grader\junitvmwatcher5911808468612460513.properties propsfile=C:\Users\ASL\workspace\ps1-warmup\.grader\junit4065564938864851553.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner warmup.staff.QuadraticTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\amine\workspace\JavaUse\.grader\TEST-warmup.staff.QuadraticTest.xml crashfile=C:\Users\amine\workspace\JavaUse\.grader\junitvmwatcher3075900293530415381.properties propsfile=C:\Users\amine\workspace\JavaUse\.grader\junit927987795854503157.properties" />
 
-          <property name="java.class.path" value="C:\Users\ASL\workspace\ps1-warmup\lib\junit-4.12.jar;C:\Users\ASL\workspace\ps1-warmup\lib\hamcrest-core-1.3.jar;C:\Users\ASL\workspace\ps1-warmup\.grader\bin-tests-final;C:\Users\ASL\workspace\ps1-warmup\.grader\bin-student;C:\Users\ASL\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\ASL\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\ASL\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\ASL\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+          <property name="java.class.path" value="C:\Users\amine\workspace\JavaUse\lib\junit-4.12.jar;C:\Users\amine\workspace\JavaUse\lib\hamcrest-core-1.3.jar;C:\Users\amine\workspace\JavaUse\.grader\bin-tests-final;C:\Users\amine\workspace\JavaUse\.grader\bin-student;C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
 
@@ -291,9 +291,9 @@
 
           <property name="didit.desc" value="Running our tests against your implementation" />
 
-          <property name="sun.os.patch.level" value="" />
+          <property name="sun.os.patch.level" value="Service Pack 1" />
 
-          <property name="java.io.tmpdir" value="C:\Users\ASL\AppData\Local\Temp\" />
+          <property name="java.io.tmpdir" value="C:\Users\amine\AppData\Local\Temp\" />
 
           <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
 
@@ -301,9 +301,9 @@
 
           <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
 
-          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_60\lib\ext;C:\Windows\Sun\Java\lib\ext" />
 
-          <property name="user.dir" value="C:\Users\ASL\workspace\ps1-warmup" />
+          <property name="user.dir" value="C:\Users\amine\workspace\JavaUse" />
 
           <property name="line.separator" value="&#xd;&#xa;" />
 
@@ -313,11 +313,11 @@
 
           <property name="problem.set" value="ps1" />
 
-          <property name="basedir" value="C:\Users\ASL\workspace\ps1-warmup" />
+          <property name="basedir" value="C:\Users\amine\workspace\JavaUse" />
 
           <property name="ant.java.version" value="1.8" />
 
-          <property name="ant.core.lib" value="C:\Users\ASL\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+          <property name="ant.core.lib" value="C:\Program Files\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
 
           <property name="file.encoding" value="Cp1252" />
 
@@ -329,16 +329,11 @@
 
       </properties>
 
-      <testcase classname="warmup.staff.QuadraticTest" name="testRealRoots" time="0.002" />
+      <testcase classname="warmup.staff.QuadraticTest" name="testRealRoots" time="0.063" />
 
       <testcase classname="warmup.staff.QuadraticTest" name="testComplexRoots" time="0.0" />
 
-      <testcase classname="warmup.staff.QuadraticTest" name="testOneDegenerateRoot" time="0.003">
-          <failure message="expected:&lt;[3]&gt; but was:&lt;[]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;[3]&gt; but was:&lt;[]&gt;
-	at warmup.staff.QuadraticTest.testOneDegenerateRoot(QuadraticTest.java:30)
-</failure>
-
-      </testcase>
+      <testcase classname="warmup.staff.QuadraticTest" name="testOneDegenerateRoot" time="0.0" />
 
       <system-out><![CDATA[]]></system-out>
 

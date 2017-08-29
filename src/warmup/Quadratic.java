@@ -16,31 +16,37 @@ public class Quadratic {
      */
     public static Set<Integer> roots(int a, int b, int c) {
         
-        assert (a !=0 || b!=0 || c!=0 );
+        assert !(a ==0 && b==0 && c==0 );
         
-        // calculate discriminant 
-        // calculate sol 1 and 2 
         Set<Integer>  set =  new HashSet<Integer>() ;
-        double disc= computeDiscriminant(a,b,c);
-//        assert disc == 1.0 ;
         
-        if ( Double.isNaN(disc)) 
-            return set ;
-        else if (! isInteger(disc) ) 
-            return set ;
-        else {       
-            double res1= (-1*b + disc)/(2.0*a) ;
-            double res2= (-1*b - disc)/(2.0*a) ;
-            if (isInteger(res1))
-                set.add((int) res1);
-            if (isInteger(res2))
-                set.add((int) res2);
-            
-            return set ;
-
-        }   
-            
-
+        if (a==0) {
+            double res= (-1.0*c)/b;
+            if (isInteger(res)) {
+                set.add((int) res);
+            }
+        }
+        else {
+            double disc= computeDiscriminant(a,b,c);
+            if ( disc ==0){
+                double res= (-1.0*b)/(2*a);
+                if (isInteger(res)) 
+                    set.add((int) res);   
+            }
+            else {
+                double res1= (-1.0*b + Math.sqrt(disc))/(2*a) ;
+                double res2= (-1.0*b - Math.sqrt(disc))/(2*a) ;
+                if (isInteger(res1))
+                    set.add((int) res1);
+                if (isInteger(res2))
+                    set.add((int) res2);
+                }
+        }
+        
+        set.forEach(x ->{
+            assert   Math.abs(a*x*x + b*x +c)<0.01 ; } );
+        return set;
+        
     }
 
     
@@ -52,7 +58,7 @@ public class Quadratic {
         
       // caster a et c a une long car si a et c sont <= 2^31 ,  peut ne pas l'etre 4*a*c
       // le calcul sera faussé sans que java leve d'alerte
-        return   Math.sqrt(Math.pow(b, 2)- 4*(long)a*(long)c) ;
+        return   Math.pow(b, 2)- 4*(long)a*(long)c ;
       
     }
     /**
@@ -61,7 +67,7 @@ public class Quadratic {
      */
     public static void main(String[] args) {
         System.out.println("For the equation x^2 - 4x + 3 = 0, the possible solutions are:");
-        Set<Integer> result = Quadratic.roots(1, -6, 9);
+        Set<Integer> result = Quadratic.roots(0, -9, 9);
         System.out.println(result);
         
 
